@@ -25,7 +25,7 @@ class Var(object):
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Itsme_Ahmed_Alisha'))
     if 'DYNO' in environ:
         ON_HEROKU = True
-        APP_NAME = str(getenv('https://Directvideos_bot'))
+        APP_NAME = str(getenv('APP_NAME'))
     
     else:
         ON_HEROKU = False
