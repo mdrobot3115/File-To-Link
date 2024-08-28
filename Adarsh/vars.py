@@ -9,7 +9,7 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', ', '9844066'))
+    API_ID = int(getenv('API_ID', '9844066'))
     API_HASH = str(getenv('API_HASH', '0d3f74056f1e60388d3317548799ee17'))
     BOT_TOKEN = str(getenv('BOT_TOKEN'))
     name = str(getenv('name', 'filetolinkbot'))
